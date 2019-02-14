@@ -1,0 +1,195 @@
+html
+{
+	background:url("bj.jpeg") no-repeat center center fixed;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	 background-size:cover;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+#logout a:link,a:visited{
+    margin-left:1150px;
+    margin-top: 30px;
+    position: fixed;
+    font-family: lucida  console;
+    background-color:pink;
+    border:1px solid black;
+    border-radius: 25px;
+    padding-bottom: 30px;
+    color: blue;
+    width: 100px;
+    height:15px;
+    padding: 12px 14px;
+    text-align: center;
+    display: inline-block;
+    text-decoration:none;
+    transition: width 2s;
+    text-shadow: 2px 2px 5px black;
+}
+
+#logout a:hover{
+    color:rgb(0,0,0);
+    width:150px;
+    background-color: lightgrey;
+}
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+#des
+{
+    margin-left: 500px;
+    position: relative;
+    top: 30px;
+    left: 400px;
+}
+#Status
+{
+    width: 40px;
+    height: 20px;
+    position: absolute;
+    margin: 300px;
+}
+#myBtn
+{
+    padding: 40px;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+#res
+{
+
+position: relative;
+margin-left: 220px;
+margin-top: 20px;
+}
+#respond
+{
+    width: 200px;
+    height: 30px;
+    background-color:blue;
+    font-size: 20px;
+}
+
+#chatting
+{
+    margin-top: 40px;
+    margin-left: 200px;
+    width: 300px;
+    height: 150px;
+    position: relative;;
+    background-color: orange;
+    font-size: 20px;
+
+}
+#nx
+{
+	margin-left: 65px;
+	position: relative;
+}
+#Box
+{
+	margin-left: 200px;
+	margin-top: 100px;
+	position: absolute;
+	background-color: white;
+	width: 800px;
+	height: 500px;
+}
+#statediv
+{
+width: 180px;
+height: 20px;
+background-color: orange;
+border: 1px solid black;
+padding: 20px;
+position: absolute;
+}
+#districtdiv
+{
+width: 180px;
+height: 20px;
+background-color: orange;
+border: 1px solid black;
+margin-left: 252px;
+padding: 20px;
+position: absolute;
+}
+#mandaldiv
+{
+width: 180px;
+height: 20px;
+background-color: orange;
+border: 1px solid black;
+margin-left: 494px;
+padding: 20px;
+position: absolute;
+}
+#titlediv
+{
+width: 180px;
+height: 380px;
+background-color: yellow;
+border: 1px solid black;
+margin-top: 76px;
+padding: 20px;
+color: green;
+position: absolute;
+}
+#Refresh
+{	position: absolute;
+	margin-left: 544px;
+	margin-top: 66px;
+	padding: 5px;
+	background-color: gray;
+
+}
+#tx
+{
+	background-color: green;
+	width: 400px;
+	height: 300px;
+	text-align: left;;
+	font-family: verdana;
+	font-size: 16px;
+}
+#problemfile
+{
+width: 150px;
+height: 200px;
+background-color: white;
+border: 1px solid black;
+margin-left: 262px;
+margin-top: 90px;
+position: absolute;
+}

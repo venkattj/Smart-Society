@@ -1,0 +1,82 @@
+html
+{
+	background:url("bg.jpg") no-repeat center center fixed;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	 background-size:cover;
+}
+body
+h1
+{	background-image:url("images.jpg");
+	border: 1px solid black;
+	border-radius: 25px;
+	padding-left: 15px;
+	margin-left: 300px;
+	margin-right: 340px;
+	background-color: green; 
+    color:white;
+	text-align: center;
+	font-family: verdana;
+	text-shadow: 2px 2px 4px black;
+}
+#logo 
+{
+    border: 1px solid black ;
+    background:url("logo.jpg");
+    margin-left:220px;
+    position: absolute;
+    background-size: 370px 300px;
+    width: 370px;
+    height: 300px;
+    background-repeat: no-repeat;
+    margin-top: 120px;
+}
+#t2 a:link,a:visited{
+  	margin-left:800px;
+  	margin-top: 200px;
+  	position: fixed;
+  	font-family: lucida console;
+	background-color:transparent;
+	border:1px solid black;
+	border-radius: 25px;
+	padding-bottom: 30px;
+	color: orange;
+	width: 100px;
+	height:15px;
+	padding: 12px 14px;
+	text-align: center;
+	display: inline-block;
+	text-decoration:none;
+	transition: width 2s;
+	text-shadow: 2px 2px 5px black;
+}
+#t2 a:hover{
+	color:rgb(0,0,0);
+	width:150px;
+	background-color: lightgrey;
+}
+#t3 a:link,a:visited{
+  	margin-left:800px;
+  	margin-top: 300px;
+  	position:fixed;
+	background-color:transparent;
+	border:1px solid black;
+	border-radius: 25px;
+	color: orange;
+	width: 100px;
+	height:15px;
+	padding: 12px 14px;
+	text-align: center;
+	display: inline-block;
+	text-decoration:none;
+	transition: width 2s;
+	text-shadow: 2px 2px 5px black;
+	font-family: lucida console;
+}
+
+#t3 a:hover{
+	color:rgb(0,0,0);
+	width:150px;
+	background-color: lightgrey;
+}
